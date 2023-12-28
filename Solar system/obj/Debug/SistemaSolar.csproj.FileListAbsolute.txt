@@ -1,0 +1,53 @@
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\Motos\obj\Debug\Motos.exe
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\Motos\obj\Debug\Motos.pdb
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\ShadowEngine.pdb
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\ResolveAssemblyReference.cache
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.GenerateResource.Cache
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.exe
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.pdb
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.MainForm.resources
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Properties.Resources.resources
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.exe
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.pdb
+D:\Vasily\Cujae\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\ShadowEngine.dll
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.exe
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\ResolveAssemblyReference.cache
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.MainForm.resources
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Properties.Resources.resources
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.GenerateResource.Cache
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.exe
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.pdb
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\ShadowEngine.dll
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\bin\Debug\ShadowEngine.pdb
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\este año\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.pdb
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\2010-proyectos\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.exe
+D:\Vasily\TODO GRAPHIKA\proyectos sede grafica\2010-proyectos\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.pdb
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.exe
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.pdb
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.MainForm.resources
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Properties.Resources.resources
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.GenerateResource.Cache
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.exe
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.pdb
+C:\Users\Shadow\Desktop\SistemaSolar\SistemaSolar\bin\Debug\ShadowEngine.pdb
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.exe
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.pdb
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.AssemblyReference.cache
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.MainForm.resources
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Properties.Resources.resources
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.GenerateResource.cache
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.CoreCompileInputs.cache
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.CopyComplete
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.exe
+E:\study\CSE\CSE 3\1st term\Computer Graphics\Codes\3D_solar_system_with_opengl_and_C_\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.pdb
+C:\Users\Abdrabo\Source\Repos\Solar_System\Solar system\obj\Debug\SistemaSolar.csproj.AssemblyReference.cache
+C:\Users\Abdrabo\Source\Repos\Solar_System\Solar system\obj\Debug\SistemaSolar.MainForm.resources
+C:\Users\Abdrabo\Source\Repos\Solar_System\Solar system\obj\Debug\SistemaSolar.csproj.GenerateResource.cache
+C:\Users\Abdrabo\Source\Repos\Solar_System\Solar system\obj\Debug\SistemaSolar.csproj.CoreCompileInputs.cache
+C:\Users\Abdrabo\Source\Repos\Solar_System\Solar system\obj\Debug\SistemaSolar.csproj.CopyComplete
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\bin\Debug\Solar system.exe
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\bin\Debug\Solar system.pdb
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.Properties.Resources.resources
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.exe
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.pdb
