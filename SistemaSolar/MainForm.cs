@@ -1,8 +1,3 @@
-﻿/* 
- *This code is property of Vasily Tserekh
- *if you like it you can visit my personal dev blog
- *http://vasilydev.blogspot.com
-*/
 
 using System;
 using System.Collections.Generic;
@@ -19,7 +14,7 @@ namespace SistemaSolar
 {
     public partial class MainForm : Form
     {
-        //handle del viewport
+        //viewport handle
         uint hdc;
         SolarSystem sistema = new SolarSystem();
         static bool showOrbit = true;
@@ -43,25 +38,23 @@ namespace SistemaSolar
             InitializeComponent();
             hdc = (uint)pnlViewPort.Handle;
             string error = "";
-            //Comando de inicializacion de la ventana grafica
+            //Viewport initialization command
             OpenGLControl.OpenGLInit(ref hdc, pnlViewPort.Width, pnlViewPort.Height, ref error);
-            //inicia la posicion de la camara asi como define en angulo de perspectiva,etc etc
+            //starts the position of the camera as well as defines the perspective angle, etc.
 
             if (error != "")
             {
                 MessageBox.Show(error);   
             }
-            
             sistema.Camara.InitCamara(); 
-            //Habilita las luces
-
-
+            
+            //Enable the lights
             float[] materialAmbient = { 0.5F, 0.5F, 0.5F, 1.0F };
             float[] materialDiffuse = { 1f, 1f, 1f, 1.0f };
             float[] materialSpecular = { 1.0F, 1.0F, 1.0F, 1.0F };
             float[] materialShininess = { 10.0F }; // brillo 
-            float[] ambientLightPosition = { 0F, 0F, 0F, 1.0F }; // posicion
-            float[] lightAmbient = { 0.85F, 0.85F, 0.85F, 0.0F }; // intensidad de la luz
+            float[] ambientLightPosition = { 0F, 0F, 0F, 1.0F }; // position
+            float[] lightAmbient = { 0.85F, 0.85F, 0.85F, 0.0F }; // light intensity
 
             Lighting.MaterialAmbient = materialAmbient;
             Lighting.MaterialDiffuse = materialDiffuse;
@@ -71,12 +64,12 @@ namespace SistemaSolar
 
             Lighting.SetupLighting();  
 
-            //cargar texturas
+            //load textures
             ContentManager.SetTextureList("texturas\\");
             ContentManager.LoadTextures(); 
             sistema.CreateScene();
             Camara.CenterMouse(); 
-            //Color de fondo
+            //Background color
             Gl.glClearColor(0, 0, 0, 1);//red green blue alpha 
         }
 
