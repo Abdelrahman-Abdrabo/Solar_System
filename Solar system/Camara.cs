@@ -43,7 +43,7 @@ namespace SistemaSolar
         {
             eyex = 0f;
             eyey = 2f;
-            eyez = 5f;
+            eyez = 30f;
             centerx = 0;
             centery = 2;
             centerz = 0; 
