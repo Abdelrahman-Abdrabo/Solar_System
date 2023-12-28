@@ -21,6 +21,8 @@ namespace SistemaSolar
         static float eyex, eyey, eyez;
         static float centerx, centery, centerz;
         static float forwardSpeed = 0.3f;
+        // Yaw: Rotation around Y axis (left/right)
+        // Pitch: Rotation around X axis (up/down)
         static float yaw, pitch;
         static float rotationSpeed = 0.25f;
         static double i, j, k;
@@ -69,10 +71,10 @@ namespace SistemaSolar
 
         public void UpdateDirVector()
         {
-            k = Math.Cos(AnguloARadian((double)yaw)); //z axis
             i = -Math.Sin(AnguloARadian((double)yaw)); //x axis
-            j = Math.Sin(AnguloARadian((double)pitch)); //y axis     
-            
+            j = Math.Sin(AnguloARadian((double)pitch)); //y axis
+            k = Math.Cos(AnguloARadian((double)yaw)); //z axis
+                 
             centerz = eyez - (float)k; // calculate where the camera is looking
             centerx = eyex - (float)i;
             centery = eyey - (float)j;
@@ -114,20 +116,11 @@ namespace SistemaSolar
                 UpdateDirVector();
                 CenterMouse();
 
-
-                if (pressedButton == 1) // Mous's left button was pressed
-                {
-                    eyex -= (float)i * forwardSpeed;
-                    eyey -= (float)j * forwardSpeed;
-                    eyez -= (float)k * forwardSpeed;      
-                }
-                else
-                    if (pressedButton == -1) //the right mouse button was pressed
-                    {
-                        eyex += (float)i * forwardSpeed;
-                        eyey += (float)j * forwardSpeed;
-                        eyez += (float)k * forwardSpeed;
-                    }
+                // pressedButton takes value (-1, 0 , 1)
+                // 0 no button pressed, 1 left click and -1 right click 
+                eyex -= (float)i * forwardSpeed * pressedButton;
+                eyey -= (float)j * forwardSpeed * pressedButton;
+                eyez -= (float)k * forwardSpeed * pressedButton;      
 
             #endregion
 
