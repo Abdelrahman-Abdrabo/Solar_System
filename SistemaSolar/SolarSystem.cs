@@ -1,8 +1,3 @@
-﻿/* 
- *This code is property of Vasily Tserekh
- *if you like it you can visit my personal dev blog
- *http://vasilydev.blogspot.com
-*/
 
 using System;
 using System.Collections.Generic;
@@ -62,7 +57,7 @@ namespace SistemaSolar
 
         public void DrawScene()
         {  
-            //dibujar las estrellas
+            //draw the stars
             estrella.Draw();
             sol.Paint();
             foreach (var item in planetas)
