@@ -1,8 +1,3 @@
-﻿/* 
- *This code is property of Vasily Tserekh
- *if you like it you can visit my personal dev blog
- *http://vasilydev.blogspot.com
-*/
 
 using System;
 using System.Collections.Generic;
@@ -14,7 +9,7 @@ namespace SistemaSolar
 {
     class Sun
     {
-        //clase en cargada de dibujar el cielo        
+        //class to draw sun      
         int list;
         float rotacion;
 
