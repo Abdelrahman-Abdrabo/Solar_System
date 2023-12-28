@@ -38,14 +38,16 @@ namespace SistemaSolar
             InitializeComponent();
             hdc = (uint)pnlViewPort.Handle;
             string error = "";
+
             //Viewport initialization command
             OpenGLControl.OpenGLInit(ref hdc, pnlViewPort.Width, pnlViewPort.Height, ref error);
-            //starts the position of the camera as well as defines the perspective angle, etc.
 
             if (error != "")
             {
                 MessageBox.Show(error);   
             }
+
+            //starts the position of the camera as well as defines the perspective angle, etc.
             sistema.Camara.InitCamara(); 
             
             //Enable the lights
