@@ -1,0 +1,10 @@
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\bin\Debug\Solar system.exe
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\bin\Debug\Solar system.pdb
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.AssemblyReference.cache
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\SistemaSolar.MainForm.resources
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.Properties.Resources.resources
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.GenerateResource.cache
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.CoreCompileInputs.cache
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.CopyComplete
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.exe
+C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.pdb
