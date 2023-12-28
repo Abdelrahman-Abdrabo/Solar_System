@@ -1,8 +1,3 @@
-﻿/* 
- *This code is property of Vasily Tserekh
- *if you like it you can visit my personal dev blog
- *http://vasilydev.blogspot.com
-*/
 
 using System;
 using System.Collections.Generic;
@@ -42,15 +37,15 @@ namespace SistemaSolar
 
         public void Create()
         {
-            Glu.GLUquadric quadratic = Glu.gluNewQuadric(); //crear el objeto cuadric
+            Glu.GLUquadric quadratic = Glu.gluNewQuadric();  //create the quadratic object 
             Glu.gluQuadricNormals(quadratic, Glu.GLU_SMOOTH);
             Glu.gluQuadricTexture(quadratic, Gl.GL_TRUE);
 
-            list = Gl.glGenLists(1); // crear la lista
+            list = Gl.glGenLists(1);  //create the list
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
             Gl.glRotated(270, 1, 0, 0);
-            Glu.gluSphere(quadratic, radio, 32, 32); //creo la esfera 
+            Glu.gluSphere(quadratic, radio, 32, 32); //create the sphere
             Gl.glPopMatrix();
             Gl.glEndList();
             if (tipo == Planets.Earth)
