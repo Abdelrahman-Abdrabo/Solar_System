@@ -58,7 +58,7 @@ namespace SistemaSolar
         {
             Gl.glBegin(Gl.GL_LINE_STRIP);
 
-            for (int i = 0; i < 361; i++)
+            for (int i = 0; i <= 360; i++)
             {
                 Gl.glVertex3f(p.x * (float)Math.Sin(i * Math.PI / 180), 0, p.x * (float)Math.Cos(i * Math.PI / 180));
             }
