@@ -16,7 +16,7 @@ namespace SistemaSolar
         float radio;
         int list;
         static Random r = new Random();
-        float velocidadOrbita;
+        float OrpitalSpeed;
         string texture;
         Satellite moon;
 
@@ -27,7 +27,7 @@ namespace SistemaSolar
             this.tipo = tipo;
             p = posision;
             anguloOrbita = r.Next(360);
-            velocidadOrbita = (float)r.NextDouble() * 0.3f;
+            OrpitalSpeed = (float)r.NextDouble() * 0.3f;
             this.texture = texture;
             if (hasMoon)
             {
@@ -78,7 +78,7 @@ namespace SistemaSolar
             Gl.glEnable(Gl.GL_TEXTURE_2D);
             Gl.glBindTexture(Gl.GL_TEXTURE_2D, ContentManager.GetTextureByName(texture));
             Gl.glPushMatrix();
-            anguloOrbita += velocidadOrbita;
+            anguloOrbita += OrpitalSpeed;
             anguloRotacion += 0.6f;
             Gl.glRotatef(anguloOrbita, 0, 1, 0);
             Gl.glTranslatef(-p.x, -p.y, -p.z);
