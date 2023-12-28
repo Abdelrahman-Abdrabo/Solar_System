@@ -1,8 +1,3 @@
-﻿/* 
- *This code is property of Vasily Tserekh
- *if you like it you can visit my personal dev blog
- *http://vasilydev.blogspot.com
-*/
 
 using System;
 using System.Collections.Generic;
@@ -74,11 +69,11 @@ namespace SistemaSolar
 
         public void UpdateDirVector()
         {
-            k = Math.Cos(AnguloARadian((double)yaw)); //eje z
-            i = -Math.Sin(AnguloARadian((double)yaw)); // eje x
-            j = Math.Sin(AnguloARadian((double)pitch)); // eje y      
+            k = Math.Cos(AnguloARadian((double)yaw)); //z axis
+            i = -Math.Sin(AnguloARadian((double)yaw)); //x axis
+            j = Math.Sin(AnguloARadian((double)pitch)); //y axis     
             
-            centerz = eyez - (float)k; // calcula a donde esta mirando la camara 
+            centerz = eyez - (float)k; // calculate where the camera is looking
             centerx = eyex - (float)i;
             centery = eyey - (float)j;
         }
@@ -120,14 +115,14 @@ namespace SistemaSolar
                 CenterMouse();
 
 
-                if (pressedButton == 1) // se apreto el boton izquierdo de mouse
+                if (pressedButton == 1) // Mous's left button was pressed
                 {
                     eyex -= (float)i * forwardSpeed;
                     eyey -= (float)j * forwardSpeed;
                     eyez -= (float)k * forwardSpeed;      
                 }
                 else
-                    if (pressedButton == -1) // se apreto el boton derecho del mouse
+                    if (pressedButton == -1) //the right mouse button was pressed
                     {
                         eyex += (float)i * forwardSpeed;
                         eyey += (float)j * forwardSpeed;
