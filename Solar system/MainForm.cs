@@ -52,7 +52,7 @@ namespace SistemaSolar
             float[] materialAmbient = { 0.5F, 0.5F, 0.5F, 1.0F };
             float[] materialDiffuse = { 1f, 1f, 1f, 1.0f };
             float[] materialSpecular = { 1.0F, 1.0F, 1.0F, 1.0F };
-            float[] materialShininess = { 10.0F }; // brillo 
+            float[] materialShininess = { 10.0F }; // glow 
             float[] ambientLightPosition = { 0F, 0F, 0F, 1.0F }; // position
             float[] lightAmbient = { 0.85F, 0.85F, 0.85F, 0.0F }; // light intensity
 
