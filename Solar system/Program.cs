@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace SistemaSolar
+namespace Solar_system
 {
     static class Program
     {

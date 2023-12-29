@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Runtime.InteropServices;
 
-namespace SistemaSolar
+namespace Solar_system
 {
     public struct Pointer
     {

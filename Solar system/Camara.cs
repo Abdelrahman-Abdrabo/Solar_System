@@ -5,7 +5,7 @@ using System.Text;
 using Tao.OpenGl;
 using System.Drawing;
 
-namespace SistemaSolar
+namespace Solar_system
 {
     public class Camara
     {

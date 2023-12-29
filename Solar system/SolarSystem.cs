@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SistemaSolar
+namespace Solar_system
 {
     enum Planets
     { Mercury, Venus, Earth, Mars, Jupiter, Saturn, Neptune, Uranus, Pluton }

@@ -1,4 +1,4 @@
-﻿namespace SistemaSolar
+﻿namespace Solar_system
 {
     partial class MainForm
     {

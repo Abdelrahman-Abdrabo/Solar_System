@@ -5,7 +5,7 @@ using System.Text;
 using Tao.OpenGl;
 using ShadowEngine; 
 
-namespace SistemaSolar
+namespace Solar_system
 {
     class Sun
     {

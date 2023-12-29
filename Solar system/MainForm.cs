@@ -10,7 +10,7 @@ using ShadowEngine;
 using ShadowEngine.OpenGL; 
 using Tao.OpenGl; 
 
-namespace SistemaSolar
+namespace Solar_system
 {
     public partial class MainForm : Form
     {

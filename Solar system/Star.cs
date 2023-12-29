@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Tao.OpenGl; 
 
-namespace SistemaSolar
+namespace Solar_system
 {
     class Star
     {
