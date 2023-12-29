@@ -9,7 +9,7 @@ namespace Solar_system
 {
     class Planet
     {
-        Planets tipo;    // what does tipo stands dfor
+        Planets tipo; 
         Position p;
         float anguloRotacion;
         float anguloOrbita;
