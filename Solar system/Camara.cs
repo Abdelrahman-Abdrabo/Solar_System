@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Tao.OpenGl;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace Solar_system
 {
@@ -49,7 +50,7 @@ namespace Solar_system
             eyez = 30f;
             // camera look at 
             centerx = 0;
-            centery = 2;
+            centery = 0;
             centerz = 0; 
             Look();
         }
@@ -90,6 +91,10 @@ namespace Solar_system
         public void Update(int pressedButton)
         {
             #region Aim camera
+                float initialX = eyex;
+                float initialY = eyey;
+                float initialZ = eyez;
+                
 
                 Pointer position = new Pointer();
                 Winapi.GetCursorPos(ref position);   
@@ -122,8 +127,15 @@ namespace Solar_system
                 // 0 no button pressed, 1 left click and -1 right click 
                 eyex -= (float)i * forwardSpeed * pressedButton;
                 eyey -= (float)j * forwardSpeed * pressedButton;
-                eyez -= (float)k * forwardSpeed * pressedButton;      
+                eyez -= (float)k * forwardSpeed * pressedButton;
 
+            // Stay Away from Sun, It's firing :)
+            if (((eyex <= 3.01) && (eyex >= -3.01)) && ((eyey <= 3.01) && (eyey >= -3.01)) && ((eyez <= 3.01) && (eyez >= -3.01)))
+            {
+                eyex = initialX;
+                eyey = initialY;
+                eyez = initialZ;
+            }
             #endregion
 
             Look();  
