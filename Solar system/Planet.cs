@@ -21,17 +21,17 @@ namespace Solar_system
         Satellite moon;
 
 
-        public Planet(float radio, Planets tipo, Position posision, string texture,bool hasMoon)
+        public Planet(float radio, Planets tipo, Position posision, string texture,bool hasMoon, float OrpitalSpeed)
         {
             this.radio = radio;
             this.tipo = tipo;
             p = posision;
             anguloOrbita = r.Next(360);
-            OrpitalSpeed = (float)r.NextDouble() * 0.3f;
+            this.OrpitalSpeed = OrpitalSpeed;
             this.texture = texture;
             if (hasMoon)
             {
-                moon = new Satellite(0.5f, Planets.Earth, p, "luna.jpg"); 
+                moon = new Satellite(0.5f, Planets.Earth, p, "luna.jpg", (float)(OrpitalSpeed/5)); 
             }   
         }
 
@@ -45,7 +45,7 @@ namespace Solar_system
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
             Gl.glRotated(270, 1, 0, 0);
-            Glu.gluSphere(quadratic, radio, 32, 32); //create the sphere
+            Glu.gluSphere(quadratic, radio, 100, 100); //create the sphere
             Gl.glPopMatrix();
             Gl.glEndList();
             if (tipo == Planets.Earth)

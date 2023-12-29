@@ -20,14 +20,14 @@ namespace Solar_system
         string texture;
 
 
-        public Satellite(float radio, Planets tipo, Position posicion, string texture)
+        public Satellite(float radio, Planets tipo, Position posicion, string texture, float velocidadOrbita)
         {
             this.radio = radio;
             this.tipo = tipo;
             planetaPos = posicion;
             lunaPos = planetaPos;
             lunaPos.x += 3; 
-            //velocidadOrbita = (float)r.NextDouble() * 0.3f;
+            this.velocidadOrbita = velocidadOrbita;
             this.texture = texture; 
         }
 

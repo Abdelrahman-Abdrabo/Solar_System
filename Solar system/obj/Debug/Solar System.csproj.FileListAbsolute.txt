@@ -5,6 +5,6 @@ C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar_system.M
 C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.Properties.Resources.resources
 C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.GenerateResource.cache
 C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.CoreCompileInputs.cache
-C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.CopyComplete
+C:\Users\Abdrabo\Source\Repos\Solar_System\Solar system\obj\Debug\Solar System.csproj.CopyComplete
 C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.exe
 C:\Users\Abdrabo\source\repos\Solar_System\Solar system\obj\Debug\Solar system.pdb

@@ -43,9 +43,11 @@ namespace Solar_system
 
         public void InitCamara()
         {
+            // camera locition 
             eyex = 0f;
             eyey = 2f;
             eyez = 30f;
+            // camera look at 
             centerx = 0;
             centery = 2;
             centerz = 0; 
