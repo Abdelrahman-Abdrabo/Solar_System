@@ -23,9 +23,9 @@ namespace Solar_system
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
             Gl.glRotated(90, 1, 0, 0);
-            //Gl.glDisable(Gl.GL_LIGHTING);
-            Glu.gluSphere(quadratic, 3, 32, 32);
-            //Gl.glEnable(Gl.GL_LIGHTING);
+            Gl.glDisable(Gl.GL_LIGHTING);
+            Glu.gluSphere(quadratic, 3, 100, 100);
+            Gl.glEnable(Gl.GL_LIGHTING);
             Gl.glPopMatrix();
             Gl.glEndList();
         }

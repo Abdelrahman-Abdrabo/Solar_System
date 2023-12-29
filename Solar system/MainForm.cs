@@ -56,10 +56,11 @@ namespace Solar_system
             float[] materialSpecular = { 1.0F, 1.0F, 1.0F, 1.0F };
             float[] materialShininess = { 10.0F }; // glow 
             float[] ambientLightPosition = { 0F, 0F, 0F, 1.0F }; // position
-            float[] lightAmbient = { 0.85F, 0.85F, 0.85F, 0.0F }; // light intensity
+            float[] lightAmbient = { 0.5F, 0.5F, 0.5F, 0.0F }; // light intensity
 
             Lighting.MaterialAmbient = materialAmbient;
             Lighting.MaterialDiffuse = materialDiffuse;
+            Lighting.MaterialSpecular = materialSpecular;
             Lighting.MaterialShininess = materialShininess;
             Lighting.AmbientLightPosition = ambientLightPosition;
             Lighting.LightAmbient = lightAmbient;
