@@ -19,8 +19,8 @@ namespace Solar_system
         float OrpitalSpeed;
         string texture;
         Moon moon;
-
-
+        bool hasMoon;
+ 
         public Planet(float radius, Planets planetName, Position posision, string texture,bool hasMoon, float OrpitalSpeed)
         {
             this.radius = radius;
@@ -29,9 +29,10 @@ namespace Solar_system
             anguloOrbita = r.Next(360);
             this.OrpitalSpeed = OrpitalSpeed;
             this.texture = texture;
+            this.hasMoon = hasMoon;
             if (hasMoon)
             {
-                moon = new Moon(0.5f, Planets.Earth, p, "luna.jpg", (float)(OrpitalSpeed/5)); 
+                moon = new Moon(0.5f, planetName, posision , "luna.jpg", (float)(OrpitalSpeed/5)); 
             }   
         }
 
@@ -40,7 +41,6 @@ namespace Solar_system
             Glu.GLUquadric quadratic = Glu.gluNewQuadric();  //create the quadratic object 
             Glu.gluQuadricNormals(quadratic, Glu.GLU_SMOOTH);
             Glu.gluQuadricTexture(quadratic, Gl.GL_TRUE);
-
             list = Gl.glGenLists(1);  //create the list
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
@@ -48,7 +48,7 @@ namespace Solar_system
             Glu.gluSphere(quadratic, radius, 100, 100); //create the sphere
             Gl.glPopMatrix();
             Gl.glEndList();
-            if (planetName == Planets.Earth)
+            if (hasMoon)
             {
                 moon.Create();
             }
@@ -71,12 +71,14 @@ namespace Solar_system
             {
                 DrawOrbit();
             }
-            if (planetName == Planets.Earth)
+            if (hasMoon)
             {
                 moon.Paint(p, anguloOrbita);  
             }
+            // Enables the use of 2D textures in OpenGL
             Gl.glEnable(Gl.GL_TEXTURE_2D);
             Gl.glBindTexture(Gl.GL_TEXTURE_2D, ContentManager.GetTextureByName(texture));
+            // Pushes the current modelview matrix onto a stack, preserving its state
             Gl.glPushMatrix();
             anguloOrbita += OrpitalSpeed;
             anguloRotacion += 0.6f;

@@ -32,11 +32,11 @@ namespace Solar_system
         public void Draw()
         {
             Gl.glBegin(Gl.GL_POINTS);
-            Gl.glColor3f(1, 1, 1);//color of the stars
+            Gl.glColor3f(1, 1, 1); //color of the stars
             Gl.glPointSize(3); 
             foreach (var item in stars)
             {
-                Gl.glVertex3f(item.x, item.y, item.z);   
+                Gl.glVertex3f(item.x, item.y, item.z);
             }
             Gl.glEnd(); 
         }

@@ -36,7 +36,6 @@ namespace Solar_system
             Glu.GLUquadric quadratic = Glu.gluNewQuadric();
             Glu.gluQuadricNormals(quadratic, Glu.GLU_SMOOTH);
             Glu.gluQuadricTexture(quadratic, Gl.GL_TRUE);
-
             list = Gl.glGenLists(1);
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
@@ -50,7 +49,6 @@ namespace Solar_system
         {
             Gl.glEnable(Gl.GL_TEXTURE_2D);
             Gl.glBindTexture(Gl.GL_TEXTURE_2D, ContentManager.GetTextureByName(texture));
-            
             anguloOrbita += velocidadOrbita;
             anguloRotacion += 0.6f;
             angulOrbitaPlaneta += 0.6f;

@@ -54,18 +54,17 @@ namespace Solar_system
             float[] materialAmbient = { 0.5F, 0.5F, 0.5F, 1.0F };
             float[] materialDiffuse = { 1f, 1f, 1f, 1.0f };
             float[] materialSpecular = { 1.0F, 1.0F, 1.0F, 1.0F };
-            float[] materialShininess = { 10.0F }; // glow 
             float[] ambientLightPosition = { 0F, 0F, 0F, 1.0F }; // position
             float[] lightAmbient = { 0.5F, 0.5F, 0.5F, 0.0F }; // light intensity
-
+            
             Lighting.MaterialAmbient = materialAmbient;
             Lighting.MaterialDiffuse = materialDiffuse;
             Lighting.MaterialSpecular = materialSpecular;
-            Lighting.MaterialShininess = materialShininess;
             Lighting.AmbientLightPosition = ambientLightPosition;
             Lighting.LightAmbient = lightAmbient;
 
-            Lighting.SetupLighting();  
+            Lighting.SetupLighting(); 
+            
 
             //load textures
             ContentManager.SetTextureList("texturas\\");
@@ -73,9 +72,10 @@ namespace Solar_system
             sistema.CreateScene();
             Camara.CenterMouse(); 
             //Background color
-            Gl.glClearColor(0, 0, 0, 1);//red green blue alpha 
+            Gl.glClearColor(0, 0, 0, 1);   //red green blue alpha 
         }
 
+        // Render frames and drawing 
         private void tmrPaint_Tick(object sender, EventArgs e)
         {
             
@@ -121,10 +121,7 @@ namespace Solar_system
             }
             if (e.KeyCode == Keys.O)
             {
-                if (showOrbit == true)
-                    showOrbit = false;
-                else
-                    showOrbit = true; 
+                showOrbit = !showOrbit; 
             }
         }
     }

@@ -18,7 +18,6 @@ namespace Solar_system
             Glu.GLUquadric quadratic = Glu.gluNewQuadric();
             Glu.gluQuadricNormals(quadratic, Glu.GLU_SMOOTH);
             Glu.gluQuadricTexture(quadratic, Gl.GL_TRUE);
-
             list = Gl.glGenLists(1);
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
