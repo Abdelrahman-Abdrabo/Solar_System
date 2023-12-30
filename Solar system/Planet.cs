@@ -9,29 +9,29 @@ namespace Solar_system
 {
     class Planet
     {
-        Planets tipo; 
+        Planets planetName; 
         Position p;
         float anguloRotacion;
         float anguloOrbita;
-        float radio;
+        float radius;
         int list;
         static Random r = new Random();
         float OrpitalSpeed;
         string texture;
-        Satellite moon;
+        Moon moon;
 
 
-        public Planet(float radio, Planets tipo, Position posision, string texture,bool hasMoon, float OrpitalSpeed)
+        public Planet(float radius, Planets planetName, Position posision, string texture,bool hasMoon, float OrpitalSpeed)
         {
-            this.radio = radio;
-            this.tipo = tipo;
+            this.radius = radius;
+            this.planetName = planetName;
             p = posision;
             anguloOrbita = r.Next(360);
             this.OrpitalSpeed = OrpitalSpeed;
             this.texture = texture;
             if (hasMoon)
             {
-                moon = new Satellite(0.5f, Planets.Earth, p, "luna.jpg", (float)(OrpitalSpeed/5)); 
+                moon = new Moon(0.5f, Planets.Earth, p, "luna.jpg", (float)(OrpitalSpeed/5)); 
             }   
         }
 
@@ -45,10 +45,10 @@ namespace Solar_system
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
             Gl.glRotated(270, 1, 0, 0);
-            Glu.gluSphere(quadratic, radio, 100, 100); //create the sphere
+            Glu.gluSphere(quadratic, radius, 100, 100); //create the sphere
             Gl.glPopMatrix();
             Gl.glEndList();
-            if (tipo == Planets.Earth)
+            if (planetName == Planets.Earth)
             {
                 moon.Create();
             }
@@ -71,7 +71,7 @@ namespace Solar_system
             {
                 DrawOrbit();
             }
-            if (tipo == Planets.Earth)
+            if (planetName == Planets.Earth)
             {
                 moon.Paint(p, anguloOrbita);  
             }

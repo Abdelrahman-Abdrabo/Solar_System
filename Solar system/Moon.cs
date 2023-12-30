@@ -7,23 +7,23 @@ using ShadowEngine;
 
 namespace Solar_system
 {
-    class Satellite
+    class Moon
     {
-        Planets tipo;
+        Planets planetName;
         Position planetaPos;
         Position lunaPos;
         float anguloRotacion;
         float angulOrbitaPlaneta;
-        float radio;
+        float radius;
         int list;
         float velocidadOrbita;
         string texture;
 
 
-        public Satellite(float radio, Planets tipo, Position posicion, string texture, float velocidadOrbita)
+        public Moon(float radius, Planets planetName, Position posicion, string texture, float velocidadOrbita)
         {
-            this.radio = radio;
-            this.tipo = tipo;
+            this.radius = radius;
+            this.planetName = planetName;
             planetaPos = posicion;
             lunaPos = planetaPos;
             lunaPos.x += 3; 
@@ -41,7 +41,7 @@ namespace Solar_system
             Gl.glNewList(list, Gl.GL_COMPILE);
             Gl.glPushMatrix();
             Gl.glRotated(90, 1, 0, 0);
-            Glu.gluSphere(quadratic, radio, 32, 32);
+            Glu.gluSphere(quadratic, radius, 32, 32);
             Gl.glPopMatrix();
             Gl.glEndList();
         }

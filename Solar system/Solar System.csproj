@@ -55,7 +55,7 @@
   <ItemGroup>
     <Compile Include="Camara.cs" />
     <Compile Include="Star.cs" />
-    <Compile Include="Satellite.cs" />
+    <Compile Include="Moon.cs" />
     <Compile Include="SolarSystem.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
